@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+   background-color: rgb(2, 12, 42);
+   color: white;
+}
+.head{
+    background-color: rgb(4, 4, 128);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0,23px;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color:chartreuse;
+    font-size: 1.01rem;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+
+
+}
+.firstsection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    margin: 50px;
+}
+.firstsection div
+{
+    width: 30%;
+    
+}
+.rightsection{
+    margin: 70px;
+    position: relative;
+    left: 10px;
+    font-size: 2.5rem;
+}
+em{
+    color: skyblue;
+    font-style: italic;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+
+hr{
+    margin: 4rem;
+}
+.secondsection{
+    padding: 20px;
+    margin: 20px;
+}
+p{
+    font-size: 0.9rem;
+}
+h2{
+    font-style: italic;
+    text-align:center;
+    color: skyblue;
+    font-size: 3rem;
+}
+h4{
+    color: darkolivegreen;
+    font-size: 1.5rem;
+    font-style: inherit;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: skyblue;
+    color:green;
+}
